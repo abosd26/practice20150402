@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Hello!"
+        android:id="@+id/okButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#ba000000"
+        android:background="#ff8cff72"
+        android:nestedScrollingEnabled="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELLO2!"
+        android:id="@+id/okButton2"
+        android:layout_below="@+id/okButton"
+        android:layout_alignLeft="@+id/okButton"
+        android:layout_alignStart="@+id/okButton"
+        android:layout_marginTop="64dp"
+        android:layout_alignRight="@+id/okButton"
+        android:layout_alignEnd="@+id/okButton"
+        android:textSize="40dp" />
+</RelativeLayout>
